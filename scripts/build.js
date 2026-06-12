@@ -94,7 +94,7 @@ function main() {
   // 复制 datasets
   copyRecursive(path.join(CONTENT, 'datasets'), path.join(PUBLIC, 'datasets'));
   // 复制根目录静态文件
-  const staticFiles = ['index.html', 'course.html', 'lesson.html', 'achievement.html'];
+  const staticFiles = ['index.html', 'course.html', 'lesson.html', 'achievement.html', '_headers', 'robots.txt'];
   for (const f of staticFiles) {
     const src = path.join(ROOT, f);
     if (fs.existsSync(src)) fs.copyFileSync(src, path.join(PUBLIC, f));

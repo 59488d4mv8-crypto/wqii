@@ -1,0 +1,8 @@
+# Cloudflare Pages 项目配置
+name = "data-analysis-edplatform"
+compatibility_date = "2024-01-01"
+
+# 指定 Pages 构建配置
+[build]
+  command = "npm run build"
+  directory = "public"
