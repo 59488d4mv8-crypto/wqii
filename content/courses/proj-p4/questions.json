@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "中文分词的含义是？",
+      "options": ["把字转成拼音", "把句子拆成词", "把词翻成英文", "把标点删除"],
+      "correct": 1
+    },
+    {
+      "question": "停用词的作用是？",
+      "options": ["美化输出", "过滤无意义高频词", "加密文本", "填充数据"],
+      "correct": 1
+    },
+    {
+      "question": "词频统计最直接的数据结构是？",
+      "options": ["list", "dict/Counter", "tuple", "set"],
+      "correct": 1
+    },
+    {
+      "question": "基于规则的情感打分核心是？",
+      "options": ["随机数", "情感词典", "神经网络", "SQL 查询"],
+      "correct": 1
+    },
+    {
+      "question": "好评通常对应 rating 多少？",
+      "options": ["1", "2", "3", "4 或 5"],
+      "correct": 3
+    },
+    {
+      "question": "以下哪个是常见正向词？",
+      "options": ["失望", "差", "好", "垃圾"],
+      "correct": 2
+    },
+    {
+      "question": "Counter.most_common(n) 返回？",
+      "options": ["n 个最少出现的词", "n 个最多出现的词及次数", "全部元素", "n 个随机词"],
+      "correct": 1
+    },
+    {
+      "question": "气泡图适合展示？",
+      "options": ["时间序列", "词与频次（气泡大小=频次）", "相关矩阵", "分布箱线"],
+      "correct": 1
+    },
+    {
+      "question": "如果 (正向词数 - 负向词数) / 总词数 > 0，通常表示？",
+      "options": ["中性", "正向", "负向", "无法判断"],
+      "correct": 1
+    },
+    {
+      "question": "基于规则的情感分析相比深度学习模型的优势是？",
+      "options": ["准确率更高", "更易解释且不依赖训练数据", "支持多语言更好", "内存更大"],
+      "correct": 1
+    }
+  ]
+}

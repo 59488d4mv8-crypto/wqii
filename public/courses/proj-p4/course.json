@@ -1,0 +1,67 @@
+{
+  "title": "课程评价 NLP 情感分析",
+  "description": "基于用户评论文本，使用分词、停用词过滤和情感词典方法，识别课程好评/差评的代表性关键词",
+  "stage": 3,
+  "order": 8,
+  "chapters": [
+    {
+      "title": "第 1 章 项目实战",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "NLP 入门：分词 / 停用词 / 情感",
+          "content": "lesson1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "纯 Python 简易分词",
+          "template": "lesson2-template.py",
+          "tests": "lesson2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "词频统计与 Top 关键词",
+          "template": "lesson3-template.py",
+          "tests": "lesson3-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "气泡图与柱状图",
+          "template": "lesson4-template.py",
+          "tests": "lesson4-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "基于规则的情感打分",
+          "template": "lesson5-template.py",
+          "tests": "lesson5-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "好评差评关键词对比",
+          "template": "lesson6-template.py",
+          "tests": "lesson6-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "quiz",
+          "title": "项目测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合题：平均情感分与好评/差评数量",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

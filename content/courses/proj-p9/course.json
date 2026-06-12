@@ -1,0 +1,66 @@
+{
+  "title": "教师授课质量多维度综合评分",
+  "description": "用多维度指标（评分、完课率、互动率、评价数）构建综合评分并排名",
+  "stage": 3,
+  "order": 13,
+  "chapters": [
+    {
+      "title": "第 1 章 综合评分实战",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "指标体系",
+          "content": "lesson1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "指标标准化（Min-Max + Z-Score）",
+          "template": "lesson2-template.py",
+          "tests": "lesson2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "权重设置与综合评分",
+          "template": "lesson3-template.py",
+          "tests": "lesson3-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "教师排名",
+          "template": "lesson4-template.py",
+          "tests": "lesson4-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "雷达图",
+          "template": "lesson5-template.py",
+          "tests": "lesson5-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "read",
+          "title": "弱势维度建议",
+          "content": "lesson6-read.md",
+          "xp": 10
+        },
+        {
+          "type": "quiz",
+          "title": "项目测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合：每个教师综合评分",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

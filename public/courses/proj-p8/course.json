@@ -1,0 +1,67 @@
+{
+  "title": "每日访问量与课程销量时间序列预测",
+  "description": "学习时间序列基础，用滑动平均做简单预测，识别节假日异常点",
+  "stage": 3,
+  "order": 12,
+  "chapters": [
+    {
+      "title": "第 1 章 时间序列实战",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "时间序列基础",
+          "content": "lesson1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "趋势图",
+          "template": "lesson2-template.py",
+          "tests": "lesson2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "7 日滑动平均",
+          "template": "lesson3-template.py",
+          "tests": "lesson3-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "周季节性（按 weekday 聚合）",
+          "template": "lesson4-template.py",
+          "tests": "lesson4-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "下一 7 天移动平均预测",
+          "template": "lesson5-template.py",
+          "tests": "lesson5-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "节假日异常检测",
+          "template": "lesson6-template.py",
+          "tests": "lesson6-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "quiz",
+          "title": "项目测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合：日均值与下 7 天预测",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

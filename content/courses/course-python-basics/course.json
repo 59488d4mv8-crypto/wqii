@@ -1,0 +1,135 @@
+{
+  "title": "Python 数据分析基础",
+  "description": "从零开始掌握 NumPy、Pandas、Matplotlib 三大核心工具库",
+  "stage": 1,
+  "order": 1,
+  "chapters": [
+    {
+      "title": "第 1 章 Python 与 Jupyter 基础",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "Python 快速入门",
+          "content": "l1-1-intro.md",
+          "xp": 10
+        },
+        {
+          "type": "read",
+          "title": "列表、字典与函数",
+          "content": "l1-2-ide.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "基础语法练习",
+          "template": "l1-3-template.py",
+          "tests": "l1-3-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 2 章 NumPy 数值计算",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "NumPy 数组基础",
+          "content": "l2-1-numpy.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "NumPy 练习",
+          "template": "l2-2-template.py",
+          "tests": "l2-2-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 3 章 Pandas 数据结构与读写",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "Series 与 DataFrame",
+          "content": "l3-1-pandas.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "Pandas 练习",
+          "template": "l3-2-template.py",
+          "tests": "l3-2-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 4 章 Pandas 数据清洗",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "缺失值、重复值与异常值",
+          "content": "l4-1-cleaning.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "数据清洗练习",
+          "template": "l4-2-template.py",
+          "tests": "l4-2-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 5 章 分组聚合与透视表",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "groupby 与 pivot_table",
+          "content": "l5-1-groupby.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "分组聚合练习",
+          "template": "l5-2-template.py",
+          "tests": "l5-2-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 6 章 Matplotlib 基础可视化",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "常用图表类型",
+          "content": "l6-1-matplotlib.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "绘图练习",
+          "template": "l6-2-template.py",
+          "tests": "l6-2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "quiz",
+          "title": "数据分析基础测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合项目：销售数据分析",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

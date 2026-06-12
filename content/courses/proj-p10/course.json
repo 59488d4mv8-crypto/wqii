@@ -1,0 +1,67 @@
+{
+  "title": "用户画像与精准运营策略",
+  "description": "基于用户多维特征构建画像，为精准运营提供策略建议",
+  "stage": 3,
+  "order": 14,
+  "chapters": [
+    {
+      "title": "第 1 章 用户画像实战",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "用户画像概念",
+          "content": "lesson1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "变量聚合与分布",
+          "template": "lesson2-template.py",
+          "tests": "lesson2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "饼图 + 柱状图",
+          "template": "lesson3-template.py",
+          "tests": "lesson3-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "偏好交叉分析（age 分组 × prefer_subject）",
+          "template": "lesson4-template.py",
+          "tests": "lesson4-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "三类典型画像",
+          "template": "lesson5-template.py",
+          "tests": "lesson5-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "运营策略矩阵",
+          "template": "lesson6-template.py",
+          "tests": "lesson6-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "quiz",
+          "title": "项目测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合：各画像人数与推荐策略",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

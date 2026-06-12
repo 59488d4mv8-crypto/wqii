@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "RFM 模型中的 R 代表？",
+      "options": ["Revenue", "Recency", "Retention", "Ratio"],
+      "correct": 1
+    },
+    {
+      "question": "F (Frequency) 在教育场景通常指？",
+      "options": ["学习时长", "学习次数", "付费金额", "课程数"],
+      "correct": 1
+    },
+    {
+      "question": "R 的值越小（越近学习），R_score 通常？",
+      "options": ["越小", "越大", "不变", "无规则"],
+      "correct": 1
+    },
+    {
+      "question": "qcut 分箱的主要目的是？",
+      "options": ["按等宽分组", "按等频分组", "按随机分组", "按时间分组"],
+      "correct": 1
+    },
+    {
+      "question": "“重要价值” 用户的定义通常是？",
+      "options": ["近期活跃且频次/时长都高", "付费多", "登录频繁", "分享多"],
+      "correct": 0
+    },
+    {
+      "question": "“重要挽留”用户应该采用什么策略？",
+      "options": ["放任不管", "主动联系与回归奖励", "推送广告", "涨价"],
+      "correct": 1
+    },
+    {
+      "question": "RFM 模型需要多少个字段？",
+      "options": ["1", "2", "3", "4"],
+      "correct": 2
+    },
+    {
+      "question": "RFM 每个维度通常分几档？",
+      "options": ["2", "3", "5", "10"],
+      "correct": 2
+    },
+    {
+      "question": "可视化 RFM 分层占比最适合用什么图？",
+      "options": ["折线图", "散点图", "饼图", "雷达图"],
+      "correct": 2
+    },
+    {
+      "question": "RFM 最直接的业务价值是？",
+      "options": ["数据可视化", "精准用户分群与个性化运营", "自动化报表", "降低服务器成本"],
+      "correct": 1
+    }
+  ]
+}

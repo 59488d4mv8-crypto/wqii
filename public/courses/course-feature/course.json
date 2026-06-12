@@ -1,0 +1,98 @@
+{
+  "title": "数据清洗与特征工程",
+  "description": "掌握缺失值处理、异常值检测、分箱与编码，用 pandas 输出高质量分析变量",
+  "stage": 2,
+  "order": 3,
+  "chapters": [
+    {
+      "title": "第 1 章 缺失值处理",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "isna / fillna / dropna",
+          "content": "ch1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "缺失值处理练习",
+          "template": "ch1-template.py",
+          "tests": "ch1-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 2 章 异常值检测",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "IQR 法与 Z-score",
+          "content": "ch2-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "异常值检测练习",
+          "template": "ch2-template.py",
+          "tests": "ch2-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 3 章 分箱与交叉特征",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "pd.cut 与 pd.qcut",
+          "content": "ch3-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "分箱练习",
+          "template": "ch3-template.py",
+          "tests": "ch3-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 4 章 编码",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "one-hot 与 label encoding",
+          "content": "ch4-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "编码练习",
+          "template": "ch4-template.py",
+          "tests": "ch4-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 5 章 测验与综合项目",
+      "lessons": [
+        {
+          "type": "quiz",
+          "title": "数据清洗与特征工程测验",
+          "questions": "ch5-questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合项目：用户画像特征工程",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

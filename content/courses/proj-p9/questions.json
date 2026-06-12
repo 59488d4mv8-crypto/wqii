@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "综合评分之前通常需要对各维度指标做？",
+      "options": ["标准化", "直接求和", "取对数", "全部乘 100"],
+      "correct": 0
+    },
+    {
+      "question": "Min-Max 归一化公式为？",
+      "options": ["(x - min) / (max - min)", "(x - mean) / std", "(x - max) / (max - min)", "x / max"],
+      "correct": 0
+    },
+    {
+      "question": "Z-Score 标准化后数据的均值约为？",
+      "options": ["1", "0", "100", "50"],
+      "correct": 1
+    },
+    {
+      "question": "等权法意味着？",
+      "options": ["所有维度权重相同", "只取最大维度", "按均值加权", "按标准差加权"],
+      "correct": 0
+    },
+    {
+      "question": "下列哪种图最适合比较多维度评分？",
+      "options": ["散点图", "饼图", "雷达图", "柱状图"],
+      "correct": 2
+    },
+    {
+      "question": "评价数 review_count 越大，通常表示？",
+      "options": ["教师越热门", "教师越冷门", "与教师无关", "评价越负面"],
+      "correct": 0
+    },
+    {
+      "question": "某教师 Min-Max 分数低于 0.4 的维度可视为？",
+      "options": ["优势维度", "弱势维度", "无意义维度", "满分维度"],
+      "correct": 1
+    },
+    {
+      "question": "完课率低最可能需要？",
+      "options": ["加强课程结构与学习提醒", "降价", "多做广告", "减少课程时长"],
+      "correct": 0
+    },
+    {
+      "question": "综合评分排名之后，Top 教师适合作为？",
+      "options": ["学习标杆", "末位淘汰", "转岗", "忽略"],
+      "correct": 0
+    },
+    {
+      "question": "加权综合评分的权重之和通常设为？",
+      "options": ["1.0", "100", "0", "任意值"],
+      "correct": 0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "支持度（Support）衡量的是？",
+      "options": ["规则的因果关系", "项集在所有事务中出现的比例", "规则的预测能力", "商品价格"],
+      "correct": 1
+    },
+    {
+      "question": "置信度（Confidence）A→B 等于？",
+      "options": ["Support(A) / Support(B)", "Support(A∪B) / Support(A)", "Support(B) / Support(A)", "Support(A∪B) / Support(B)"],
+      "correct": 1
+    },
+    {
+      "question": "提升度（Lift）= 1 时，意味着？",
+      "options": ["前件与后件独立", "强正相关", "强负相关", "没有意义"],
+      "correct": 0
+    },
+    {
+      "question": "Apriori 的核心思想是？",
+      "options": ["频繁项集的子集也是频繁的", "任意两个项都能组合", "支持度越高越好", "项集越大越有价值"],
+      "correct": 0
+    },
+    {
+      "question": "join 步骤用于？",
+      "options": ["合并两个 k-项集生成 (k+1) 候选项集", "删除低支持度的项集", "计算置信度", "生成推荐"],
+      "correct": 0
+    },
+    {
+      "question": "prune 步骤用于？",
+      "options": ["增加候选项集", "剪去那些任何 k-子集不在 k-频繁项集中的候选项", "过滤低置信度规则", "过滤低提升度规则"],
+      "correct": 1
+    },
+    {
+      "question": "对于课程推荐而言，最理想的规则是？",
+      "options": ["低支持度低置信度", "高支持度高置信度高提升度", "只看支持度", "只看置信度"],
+      "correct": 1
+    },
+    {
+      "question": "事务数据中，一个事务是？",
+      "options": ["单个课程", "一位用户的所有课程集合", "一天的数据", "一类用户的平均"],
+      "correct": 1
+    },
+    {
+      "question": "以下哪个指标越大，规则越有价值？",
+      "options": ["Lift > 1 且越大越好", "Lift = 0", "Lift < 0", "Lift 不重要"],
+      "correct": 0
+    },
+    {
+      "question": "Apriori 最大的缺点是？",
+      "options": ["需要大规模候选项集扫描，大数据时较慢", "不支持文本", "不支持图像", "不需要计算"],
+      "correct": 0
+    }
+  ]
+}

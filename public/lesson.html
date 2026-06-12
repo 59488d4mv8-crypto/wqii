@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>课时 | 商务数据分析在线教育平台</title>
+<link rel="stylesheet" href="./css/styles.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.min.css" id="hljs-theme-light" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="./index.html" class="brand">📊 DA<span>Learn</span></a>
+    <nav class="nav-links">
+      <a href="./index.html">首页</a>
+      <a href="./achievement.html">我的成就</a>
+    </nav>
+    <div class="nav-right">
+      <span class="user-chip">
+        <span class="chip-icon">👤</span>
+        <span id="chipName">学生</span>
+        <span class="chip-xp">🔥 <span id="chipXp">0</span> XP</span>
+      </span>
+      <button id="themeToggle" class="icon-btn">🌓</button>
+    </div>
+  </div>
+</header>
+
+<main class="container lesson-main">
+  <div class="lesson-nav">
+    <button class="btn btn-ghost" id="prevBtn">← 上一课</button>
+    <a id="backToCourse" class="back-link" href="#">返回课程</a>
+    <button class="btn btn-ghost" id="nextBtn">下一课 →</button>
+  </div>
+
+  <div id="lessonLoading" class="muted">正在加载课时...</div>
+
+  <article id="lessonWrap" hidden>
+    <div class="lesson-head">
+      <span class="lesson-badge" id="lessonBadge"></span>
+      <h1 id="lessonTitle"></h1>
+      <p class="muted" id="lessonMeta"></p>
+    </div>
+
+    <div id="lessonContent" class="lesson-content"></div>
+
+    <!-- 交互式代码编辑器 -->
+    <section id="codeSection" class="code-card" hidden>
+      <div class="code-toolbar">
+        <strong>🐍 Python 代码练习</strong>
+        <div class="code-actions">
+          <button id="btnRun" class="btn btn-primary">▶ 运行</button>
+          <button id="btnReset" class="btn btn-ghost">↻ 重置模板</button>
+          <button id="btnSubmit" class="btn btn-success">✅ 提交判题</button>
+        </div>
+      </div>
+      <div class="editor-wrap">
+        <textarea id="codeEditor" spellcheck="false" class="code-editor" placeholder="在此编写 Python 代码..."></textarea>
+      </div>
+      <div class="output-card">
+        <div class="output-head">
+          <strong>📤 输出区</strong>
+          <span id="pyodideStatus" class="muted small">Pyodide 加载中...</span>
+        </div>
+        <pre id="codeOutput" class="code-output"><code></code></pre>
+      </div>
+      <div id="judgeResult" class="judge-result" hidden></div>
+    </section>
+
+    <!-- 客观题测验 -->
+    <section id="quizSection" class="quiz-card" hidden>
+      <h2>📝 单元测验</h2>
+      <p class="muted">完成题目后点击"提交"获得成绩与 XP。</p>
+      <div id="quizQuestions"></div>
+      <div class="quiz-footer">
+        <button id="btnQuizSubmit" class="btn btn-primary">提交测验</button>
+        <div id="quizResult" hidden></div>
+      </div>
+    </section>
+
+    <!-- 学完按钮 -->
+    <div class="lesson-footer">
+      <button id="btnMarkDone" class="btn btn-success btn-lg">✓ 标记该课时已完成</button>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="container"><p class="muted small">© DA-Learn · 数据全部保存在您的浏览器本地</p></div></footer>
+
+<!-- Pyodide 运行时（CDN） -->
+<script src="https://cdn.jsdelivr.net/pyodide/v0.26.2/full/pyodide.js"></script>
+<!-- highlight.js -->
+<script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/common.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@11.1.0/marked.min.js"></script>
+
+<script src="./js/app.js" defer></script>
+<script src="./js/pyodide-wrapper.js" defer></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (window.DAL) window.DAL.initLesson();
+  });
+</script>
+</body>
+</html>

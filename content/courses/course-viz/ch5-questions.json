@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "matplotlib 中创建 2x2 子图网格的正确方式是？",
+      "options": ["plt.subplot(2,2)", "plt.subplots(2,2)", "plt.create(4)", "plt.panel(2,2)"],
+      "correct": 1
+    },
+    {
+      "question": "控制子图整体尺寸的参数是？",
+      "options": ["figsize", "size", "width_height", "dimension"],
+      "correct": 0
+    },
+    {
+      "question": "绘制横向柱状图的方法是？",
+      "options": ["ax.barh", "ax.horizontal_bar", "ax.bar", "ax.plot_h"],
+      "correct": 0
+    },
+    {
+      "question": "漏斗图的 y 轴通常要做什么处理？",
+      "options": ["放大", "反转 (invert_yaxis)", "旋转", "隐藏"],
+      "correct": 1
+    },
+    {
+      "question": "以下哪种图最适合展示二维矩阵的强弱分布？",
+      "options": ["Pie Chart", "Radar Chart", "Heatmap", "Line Chart"],
+      "correct": 2
+    },
+    {
+      "question": "绘制热力图最常用的 matplotlib 底层函数是？",
+      "options": ["imshow", "show", "draw_heat", "scatter"],
+      "correct": 0
+    },
+    {
+      "question": "雷达图需要把坐标系设置为？",
+      "options": ["polar=True", "radial=True", "radar=True", "pie=True"],
+      "correct": 0
+    },
+    {
+      "question": "双轴图 (twin axes) 的关键代码是？",
+      "options": ["ax.twinx()", "ax.dup()", "ax.mirror()", "ax.copy()"],
+      "correct": 0
+    },
+    {
+      "question": "以下哪种图最适合展示\"区域销售占比\"？",
+      "options": ["散点图", "饼图", "热力图", "雷达图"],
+      "correct": 1
+    },
+    {
+      "question": "调整子图间距的常用函数是？",
+      "options": ["plt.tight_layout()", "plt.space()", "plt.resize()", "plt.gap()"],
+      "correct": 0
+    }
+  ]
+}

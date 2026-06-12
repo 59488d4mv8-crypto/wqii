@@ -1,0 +1,73 @@
+{
+  "title": "用户注册与活跃行为分析",
+  "description": "基于真实业务的用户注册与活跃数据，学习渠道对比、DAU/WAU/MAU 指标以及留存曲线的分析方法",
+  "stage": 3,
+  "order": 5,
+  "chapters": [
+    {
+      "title": "第 1 章 项目实战",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "业务背景：在线教育平台如何度量获客与活跃？",
+          "content": "lesson1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "数据概览：读取注册与活跃数据",
+          "template": "lesson2-template.py",
+          "tests": "lesson2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "注册渠道对比与柱状图",
+          "template": "lesson3-template.py",
+          "tests": "lesson3-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "注册时段分布",
+          "template": "lesson4-template.py",
+          "tests": "lesson4-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "DAU / WAU / MAU 指标",
+          "template": "lesson5-template.py",
+          "tests": "lesson5-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "30 日留存率曲线",
+          "template": "lesson6-template.py",
+          "tests": "lesson6-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "read",
+          "title": "结论与建议",
+          "content": "lesson7-read.md",
+          "xp": 10
+        },
+        {
+          "type": "quiz",
+          "title": "项目测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合题：各渠道 DAU 均值",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

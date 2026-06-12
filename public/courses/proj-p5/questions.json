@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Pearson 相关系数的取值范围是？",
+      "options": ["[0, 1]", "[-1, 1]", "[0, +inf)", "(-inf, +inf)"],
+      "correct": 1
+    },
+    {
+      "question": "相关系数接近 1 表示？",
+      "options": ["强负相关", "强正相关", "无相关", "因果关系"],
+      "correct": 1
+    },
+    {
+      "question": "np.polyfit(x, y, 1) 的返回值是？",
+      "options": ["R²", "p 值", "[slope, intercept]", "[intercept, slope]"],
+      "correct": 2
+    },
+    {
+      "question": "散点图最适合展示？",
+      "options": ["分类占比", "两个数值变量的关系", "时间序列", "词频"],
+      "correct": 1
+    },
+    {
+      "question": "箱线图不能展示？",
+      "options": ["中位数", "四分位", "离群点", "精确相关系数"],
+      "correct": 3
+    },
+    {
+      "question": "线性回归 y = slope*x + intercept 中，slope > 0 意味着？",
+      "options": ["x 越大 y 越小", "x 越大 y 越大", "无关系", "y 恒等于 intercept"],
+      "correct": 1
+    },
+    {
+      "question": "以下哪条是正确的？",
+      "options": ["相关 = 因果", "相关不代表因果", "相关系数 = R²", "相关系数越接近 0 越好"],
+      "correct": 1
+    },
+    {
+      "question": "pandas 的 df.corr() 默认使用？",
+      "options": ["Spearman", "Kendall", "Pearson", "互信息"],
+      "correct": 2
+    },
+    {
+      "question": "如果学习时长增加时，暂停次数也增加，则两者相关系数可能？",
+      "options": ["为正", "为负", "接近 0", "等于 1"],
+      "correct": 0
+    },
+    {
+      "question": "简单线性回归模型的最小二乘目标是最小化？",
+      "options": ["预测值与真实值差的绝对值", "预测值与真实值差的平方和", "相关系数", "R²"],
+      "correct": 1
+    }
+  ]
+}

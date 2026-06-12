@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>课程详情 | 商务数据分析在线教育平台</title>
+<link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="./index.html" class="brand">📊 DA<span>Learn</span></a>
+    <nav class="nav-links">
+      <a href="./index.html">首页</a>
+      <a href="./achievement.html">我的成就</a>
+    </nav>
+    <div class="nav-right">
+      <span class="user-chip">
+        <span class="chip-icon">👤</span>
+        <span id="chipName">学生</span>
+        <span class="chip-xp">🔥 <span id="chipXp">0</span> XP</span>
+      </span>
+      <button id="themeToggle" class="icon-btn">🌓</button>
+    </div>
+  </div>
+</header>
+
+<main class="container course-main">
+  <a href="./index.html" class="back-link">← 返回首页</a>
+  <div id="courseLoading" class="muted">正在加载课程...</div>
+  <article id="courseWrap" hidden>
+    <header class="course-hero">
+      <span class="stage-tag" id="courseStage"></span>
+      <h1 id="courseTitle"></h1>
+      <p id="courseDesc" class="lead"></p>
+      <div class="course-meta">
+        <div><span class="muted">章节数</span><strong id="chapterCount">0</strong></div>
+        <div><span class="muted">课时数</span><strong id="lessonCount">0</strong></div>
+        <div><span class="muted">总 XP</span><strong id="courseXp">0</strong></div>
+        <div><span class="muted">学习进度</span><strong><span id="courseProgressPct">0</span>%</strong></div>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="courseProgressBar"></div></div>
+    </header>
+
+    <section id="chaptersWrap" class="chapters-wrap"></section>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container"><p class="muted small">© DA-Learn · 在浏览器中运行 Python</p></div>
+</footer>
+
+<script src="./js/app.js" defer></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (window.DAL) window.DAL.initCourse();
+  });
+</script>
+</body>
+</html>

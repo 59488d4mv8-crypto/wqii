@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "用户画像主要用于？",
+      "options": ["取代用户访谈", "抽象典型用户类型以支持精准运营", "替代数据分析", "美化页面"],
+      "correct": 1
+    },
+    {
+      "question": "白天学习者一般定义为？",
+      "options": ["活跃小时在 9-17 点", "活跃小时在 22 点后", "周末活跃", "仅注册未学习"],
+      "correct": 0
+    },
+    {
+      "question": "夜猫子画像适合的运营策略是？",
+      "options": ["工作日早会打卡", "晚间直播课与夜读内容", "周末打包课程", "只发邮件"],
+      "correct": 1
+    },
+    {
+      "question": "交叉分析 age_group × prefer_subject 适合使用？",
+      "options": ["折线图", "交叉表/热力图", "饼图", "散点图"],
+      "correct": 1
+    },
+    {
+      "question": "以下哪个字段不适合作为用户画像输入？",
+      "options": ["age", "gender", "prefer_subject", "user_id"],
+      "correct": 3
+    },
+    {
+      "question": "active_hour 的取值范围是？",
+      "options": ["0-23", "1-12", "1-7", "任意整数"],
+      "correct": 0
+    },
+    {
+      "question": "分析 age 分布最常用？",
+      "options": ["分箱后柱状图", "折线图", "雷达图", "散点图"],
+      "correct": 0
+    },
+    {
+      "question": "prefer_subject 字段反映了用户的？",
+      "options": ["学习偏好", "身高", "体重", "住址"],
+      "correct": 0
+    },
+    {
+      "question": "对于 mobile 端用户，推送时间宜选在？",
+      "options": ["碎片时间，通勤/午休", "上班 9 点整", "凌晨 3 点", "任意时间"],
+      "correct": 0
+    },
+    {
+      "question": "精准运营的核心是？",
+      "options": ["对所有用户发送同样内容", "基于用户画像做差异化策略", "只看 PV", "只做促销活动"],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "在线教育用户 RFM 价值分层",
+  "description": "基于用户最近学习间隔、学习频次和学习时长，将用户分群并提出针对性的运营策略",
+  "stage": 3,
+  "order": 7,
+  "chapters": [
+    {
+      "title": "第 1 章 项目实战",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "RFM 概念与应用场景",
+          "content": "lesson1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "数据准备",
+          "template": "lesson2-template.py",
+          "tests": "lesson2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "RFM 分箱打分",
+          "template": "lesson3-template.py",
+          "tests": "lesson3-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "8 类用户分层",
+          "template": "lesson4-template.py",
+          "tests": "lesson4-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "可视化分组",
+          "template": "lesson5-template.py",
+          "tests": "lesson5-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "read",
+          "title": "运营策略建议",
+          "content": "lesson6-read.md",
+          "xp": 10
+        },
+        {
+          "type": "quiz",
+          "title": "项目测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合题：每个分层的用户数",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

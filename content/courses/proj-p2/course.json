@@ -1,0 +1,66 @@
+{
+  "title": "课程学习完课率与流失预测",
+  "description": "通过漏斗分析识别课程流失节点，结合规则方法简单预测流失用户，为课程改进提供数据支撑",
+  "stage": 3,
+  "order": 6,
+  "chapters": [
+    {
+      "title": "第 1 章 项目实战",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "业务背景：漏斗分析与流失节点",
+          "content": "lesson1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "章节完成漏斗",
+          "template": "lesson2-template.py",
+          "tests": "lesson2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "各章节退出节点",
+          "template": "lesson3-template.py",
+          "tests": "lesson3-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "流失特征热力图",
+          "template": "lesson4-template.py",
+          "tests": "lesson4-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "简单流失预测规则",
+          "template": "lesson5-template.py",
+          "tests": "lesson5-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "read",
+          "title": "业务建议",
+          "content": "lesson6-read.md",
+          "xp": 10
+        },
+        {
+          "type": "quiz",
+          "title": "项目测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合题：最容易流失的 top3 章节",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "title": "商务统计与假设检验",
+  "description": "掌握描述性统计、概率分布、假设检验与 A/B 测试，用 Python 解决真实业务数据问题",
+  "stage": 2,
+  "order": 2,
+  "chapters": [
+    {
+      "title": "第 1 章 描述性统计",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "均值、中位数、方差与分位数",
+          "content": "ch1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "描述性统计练习",
+          "template": "ch1-template.py",
+          "tests": "ch1-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 2 章 概率分布",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "二项分布与正态分布模拟",
+          "content": "ch2-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "概率分布模拟练习",
+          "template": "ch2-template.py",
+          "tests": "ch2-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 3 章 假设检验",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "t 检验与 p 值",
+          "content": "ch3-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "手写 t 检验函数",
+          "template": "ch3-template.py",
+          "tests": "ch3-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 4 章 卡方检验与 A/B 测试思维",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "卡方检验与列联表",
+          "content": "ch4-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "卡方检验练习",
+          "template": "ch4-template.py",
+          "tests": "ch4-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 5 章 测验与综合项目",
+      "lessons": [
+        {
+          "type": "quiz",
+          "title": "商务统计测验",
+          "questions": "ch5-questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合项目：A/B 测试数据分析",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1112 @@
+{
+  "courses": [
+    {
+      "id": "course-python-basics",
+      "title": "Python 数据分析基础",
+      "description": "从零开始掌握 NumPy、Pandas、Matplotlib 三大核心工具库",
+      "stage": 1,
+      "order": 1,
+      "chapters": [
+        {
+          "title": "第 1 章 Python 与 Jupyter 基础",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "Python 快速入门",
+              "content": "l1-1-intro.md",
+              "xp": 10
+            },
+            {
+              "type": "read",
+              "title": "列表、字典与函数",
+              "content": "l1-2-ide.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "基础语法练习",
+              "template": "l1-3-template.py",
+              "tests": "l1-3-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 2 章 NumPy 数值计算",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "NumPy 数组基础",
+              "content": "l2-1-numpy.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "NumPy 练习",
+              "template": "l2-2-template.py",
+              "tests": "l2-2-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 3 章 Pandas 数据结构与读写",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "Series 与 DataFrame",
+              "content": "l3-1-pandas.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "Pandas 练习",
+              "template": "l3-2-template.py",
+              "tests": "l3-2-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 4 章 Pandas 数据清洗",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "缺失值、重复值与异常值",
+              "content": "l4-1-cleaning.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "数据清洗练习",
+              "template": "l4-2-template.py",
+              "tests": "l4-2-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 5 章 分组聚合与透视表",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "groupby 与 pivot_table",
+              "content": "l5-1-groupby.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "分组聚合练习",
+              "template": "l5-2-template.py",
+              "tests": "l5-2-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 6 章 Matplotlib 基础可视化",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "常用图表类型",
+              "content": "l6-1-matplotlib.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "绘图练习",
+              "template": "l6-2-template.py",
+              "tests": "l6-2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "quiz",
+              "title": "数据分析基础测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合项目：销售数据分析",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course-stats",
+      "title": "商务统计与假设检验",
+      "description": "掌握描述性统计、概率分布、假设检验与 A/B 测试，用 Python 解决真实业务数据问题",
+      "stage": 2,
+      "order": 2,
+      "chapters": [
+        {
+          "title": "第 1 章 描述性统计",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "均值、中位数、方差与分位数",
+              "content": "ch1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "描述性统计练习",
+              "template": "ch1-template.py",
+              "tests": "ch1-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 2 章 概率分布",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "二项分布与正态分布模拟",
+              "content": "ch2-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "概率分布模拟练习",
+              "template": "ch2-template.py",
+              "tests": "ch2-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 3 章 假设检验",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "t 检验与 p 值",
+              "content": "ch3-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "手写 t 检验函数",
+              "template": "ch3-template.py",
+              "tests": "ch3-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 4 章 卡方检验与 A/B 测试思维",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "卡方检验与列联表",
+              "content": "ch4-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "卡方检验练习",
+              "template": "ch4-template.py",
+              "tests": "ch4-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 5 章 测验与综合项目",
+          "lessons": [
+            {
+              "type": "quiz",
+              "title": "商务统计测验",
+              "questions": "ch5-questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合项目：A/B 测试数据分析",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course-feature",
+      "title": "数据清洗与特征工程",
+      "description": "掌握缺失值处理、异常值检测、分箱与编码，用 pandas 输出高质量分析变量",
+      "stage": 2,
+      "order": 3,
+      "chapters": [
+        {
+          "title": "第 1 章 缺失值处理",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "isna / fillna / dropna",
+              "content": "ch1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "缺失值处理练习",
+              "template": "ch1-template.py",
+              "tests": "ch1-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 2 章 异常值检测",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "IQR 法与 Z-score",
+              "content": "ch2-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "异常值检测练习",
+              "template": "ch2-template.py",
+              "tests": "ch2-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 3 章 分箱与交叉特征",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "pd.cut 与 pd.qcut",
+              "content": "ch3-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "分箱练习",
+              "template": "ch3-template.py",
+              "tests": "ch3-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 4 章 编码",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "one-hot 与 label encoding",
+              "content": "ch4-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "编码练习",
+              "template": "ch4-template.py",
+              "tests": "ch4-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 5 章 测验与综合项目",
+          "lessons": [
+            {
+              "type": "quiz",
+              "title": "数据清洗与特征工程测验",
+              "questions": "ch5-questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合项目：用户画像特征工程",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course-viz",
+      "title": "数据可视化进阶",
+      "description": "掌握多图布局、漏斗图、桑基图、热力图与商务常见图表，打造可落地的数据报告",
+      "stage": 2,
+      "order": 4,
+      "chapters": [
+        {
+          "title": "第 1 章 多图布局与样式",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "subplots / figsize / title / legend / 颜色",
+              "content": "ch1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "多图布局练习",
+              "template": "ch1-template.py",
+              "tests": "ch1-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 2 章 漏斗图",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "matplotlib 横向 bar 绘制销售漏斗",
+              "content": "ch2-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "漏斗图练习",
+              "template": "ch2-template.py",
+              "tests": "ch2-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 3 章 桑基图 / 热力图",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "matplotlib imshow 与 seaborn heatmap",
+              "content": "ch3-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "热力图练习",
+              "template": "ch3-template.py",
+              "tests": "ch3-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 4 章 商务常见图形",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "饼图 / 雷达图 / 双轴图",
+              "content": "ch4-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "商务图表练习",
+              "template": "ch4-template.py",
+              "tests": "ch4-tests.py",
+              "xp": 20
+            }
+          ]
+        },
+        {
+          "title": "第 5 章 测验与综合项目",
+          "lessons": [
+            {
+              "type": "quiz",
+              "title": "数据可视化测验",
+              "questions": "ch5-questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合项目：销售仪表盘 4 子图",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-p1",
+      "title": "用户注册与活跃行为分析",
+      "description": "基于真实业务的用户注册与活跃数据，学习渠道对比、DAU/WAU/MAU 指标以及留存曲线的分析方法",
+      "stage": 3,
+      "order": 5,
+      "chapters": [
+        {
+          "title": "第 1 章 项目实战",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "业务背景：在线教育平台如何度量获客与活跃？",
+              "content": "lesson1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "数据概览：读取注册与活跃数据",
+              "template": "lesson2-template.py",
+              "tests": "lesson2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "注册渠道对比与柱状图",
+              "template": "lesson3-template.py",
+              "tests": "lesson3-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "注册时段分布",
+              "template": "lesson4-template.py",
+              "tests": "lesson4-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "DAU / WAU / MAU 指标",
+              "template": "lesson5-template.py",
+              "tests": "lesson5-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "30 日留存率曲线",
+              "template": "lesson6-template.py",
+              "tests": "lesson6-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "read",
+              "title": "结论与建议",
+              "content": "lesson7-read.md",
+              "xp": 10
+            },
+            {
+              "type": "quiz",
+              "title": "项目测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合题：各渠道 DAU 均值",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-p2",
+      "title": "课程学习完课率与流失预测",
+      "description": "通过漏斗分析识别课程流失节点，结合规则方法简单预测流失用户，为课程改进提供数据支撑",
+      "stage": 3,
+      "order": 6,
+      "chapters": [
+        {
+          "title": "第 1 章 项目实战",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "业务背景：漏斗分析与流失节点",
+              "content": "lesson1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "章节完成漏斗",
+              "template": "lesson2-template.py",
+              "tests": "lesson2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "各章节退出节点",
+              "template": "lesson3-template.py",
+              "tests": "lesson3-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "流失特征热力图",
+              "template": "lesson4-template.py",
+              "tests": "lesson4-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "简单流失预测规则",
+              "template": "lesson5-template.py",
+              "tests": "lesson5-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "read",
+              "title": "业务建议",
+              "content": "lesson6-read.md",
+              "xp": 10
+            },
+            {
+              "type": "quiz",
+              "title": "项目测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合题：最容易流失的 top3 章节",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-p3",
+      "title": "在线教育用户 RFM 价值分层",
+      "description": "基于用户最近学习间隔、学习频次和学习时长，将用户分群并提出针对性的运营策略",
+      "stage": 3,
+      "order": 7,
+      "chapters": [
+        {
+          "title": "第 1 章 项目实战",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "RFM 概念与应用场景",
+              "content": "lesson1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "数据准备",
+              "template": "lesson2-template.py",
+              "tests": "lesson2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "RFM 分箱打分",
+              "template": "lesson3-template.py",
+              "tests": "lesson3-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "8 类用户分层",
+              "template": "lesson4-template.py",
+              "tests": "lesson4-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "可视化分组",
+              "template": "lesson5-template.py",
+              "tests": "lesson5-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "read",
+              "title": "运营策略建议",
+              "content": "lesson6-read.md",
+              "xp": 10
+            },
+            {
+              "type": "quiz",
+              "title": "项目测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合题：每个分层的用户数",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-p4",
+      "title": "课程评价 NLP 情感分析",
+      "description": "基于用户评论文本，使用分词、停用词过滤和情感词典方法，识别课程好评/差评的代表性关键词",
+      "stage": 3,
+      "order": 8,
+      "chapters": [
+        {
+          "title": "第 1 章 项目实战",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "NLP 入门：分词 / 停用词 / 情感",
+              "content": "lesson1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "纯 Python 简易分词",
+              "template": "lesson2-template.py",
+              "tests": "lesson2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "词频统计与 Top 关键词",
+              "template": "lesson3-template.py",
+              "tests": "lesson3-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "气泡图与柱状图",
+              "template": "lesson4-template.py",
+              "tests": "lesson4-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "基于规则的情感打分",
+              "template": "lesson5-template.py",
+              "tests": "lesson5-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "好评差评关键词对比",
+              "template": "lesson6-template.py",
+              "tests": "lesson6-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "quiz",
+              "title": "项目测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合题：平均情感分与好评/差评数量",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-p5",
+      "title": "学习时长与成绩相关性分析",
+      "description": "基于学习行为数据，分析时长、暂停、跳转等行为与 quiz 成绩之间的相关性，并用简单线性回归建模",
+      "stage": 3,
+      "order": 9,
+      "chapters": [
+        {
+          "title": "第 1 章 项目实战",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "变量与相关性概念",
+              "content": "lesson1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "数据概览",
+              "template": "lesson2-template.py",
+              "tests": "lesson2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "Pearson 相关系数矩阵",
+              "template": "lesson3-template.py",
+              "tests": "lesson3-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "时长 vs 成绩散点图",
+              "template": "lesson4-template.py",
+              "tests": "lesson4-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "简单线性回归",
+              "template": "lesson5-template.py",
+              "tests": "lesson5-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "箱线图：暂停次数对成绩的分组对比",
+              "template": "lesson6-template.py",
+              "tests": "lesson6-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "quiz",
+              "title": "项目测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合题：与成绩相关性最高的 3 个变量",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-p6",
+      "title": "付费转化漏斗分析",
+      "description": "学习漏斗分析方法，识别付费转化卡点，并对多渠道转化率进行对比分析",
+      "stage": 3,
+      "order": 10,
+      "chapters": [
+        {
+          "title": "第 1 章 漏斗实战",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "漏斗概念：浏览 → 试学 → 加购 → 付费 → 完课",
+              "content": "lesson1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "各节点计数与转化率",
+              "template": "lesson2-template.py",
+              "tests": "lesson2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "渠道对比漏斗图",
+              "template": "lesson3-template.py",
+              "tests": "lesson3-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "转化卡点识别",
+              "template": "lesson4-template.py",
+              "tests": "lesson4-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "read",
+              "title": "提升建议",
+              "content": "lesson5-read.md",
+              "xp": 10
+            },
+            {
+              "type": "quiz",
+              "title": "项目测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合：各渠道付费转化率与卡点",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-p7",
+      "title": "课程推荐关联规则（手写 Apriori）",
+      "description": "使用手写 Apriori 算法，从用户课程学习事务数据，挖掘课程间的关联规则，用于课程推荐",
+      "stage": 3,
+      "order": 11,
+      "chapters": [
+        {
+          "title": "第 1 章 关联规则实战",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "关联规则概念：支持度 / 置信度 / 提升度",
+              "content": "lesson1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "事务数据格式",
+              "template": "lesson2-template.py",
+              "tests": "lesson2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "手写 Apriori 第一步：1-itemsets",
+              "template": "lesson3-template.py",
+              "tests": "lesson3-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "手写 Apriori 第二步：join → prune",
+              "template": "lesson4-template.py",
+              "tests": "lesson4-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "规则生成：置信度与提升度",
+              "template": "lesson5-template.py",
+              "tests": "lesson5-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "Top 推荐表",
+              "template": "lesson6-template.py",
+              "tests": "lesson6-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "quiz",
+              "title": "项目测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合：Top-5 提升度规则",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-p8",
+      "title": "每日访问量与课程销量时间序列预测",
+      "description": "学习时间序列基础，用滑动平均做简单预测，识别节假日异常点",
+      "stage": 3,
+      "order": 12,
+      "chapters": [
+        {
+          "title": "第 1 章 时间序列实战",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "时间序列基础",
+              "content": "lesson1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "趋势图",
+              "template": "lesson2-template.py",
+              "tests": "lesson2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "7 日滑动平均",
+              "template": "lesson3-template.py",
+              "tests": "lesson3-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "周季节性（按 weekday 聚合）",
+              "template": "lesson4-template.py",
+              "tests": "lesson4-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "下一 7 天移动平均预测",
+              "template": "lesson5-template.py",
+              "tests": "lesson5-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "节假日异常检测",
+              "template": "lesson6-template.py",
+              "tests": "lesson6-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "quiz",
+              "title": "项目测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合：日均值与下 7 天预测",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-p9",
+      "title": "教师授课质量多维度综合评分",
+      "description": "用多维度指标（评分、完课率、互动率、评价数）构建综合评分并排名",
+      "stage": 3,
+      "order": 13,
+      "chapters": [
+        {
+          "title": "第 1 章 综合评分实战",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "指标体系",
+              "content": "lesson1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "指标标准化（Min-Max + Z-Score）",
+              "template": "lesson2-template.py",
+              "tests": "lesson2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "权重设置与综合评分",
+              "template": "lesson3-template.py",
+              "tests": "lesson3-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "教师排名",
+              "template": "lesson4-template.py",
+              "tests": "lesson4-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "雷达图",
+              "template": "lesson5-template.py",
+              "tests": "lesson5-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "read",
+              "title": "弱势维度建议",
+              "content": "lesson6-read.md",
+              "xp": 10
+            },
+            {
+              "type": "quiz",
+              "title": "项目测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合：每个教师综合评分",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-p10",
+      "title": "用户画像与精准运营策略",
+      "description": "基于用户多维特征构建画像，为精准运营提供策略建议",
+      "stage": 3,
+      "order": 14,
+      "chapters": [
+        {
+          "title": "第 1 章 用户画像实战",
+          "lessons": [
+            {
+              "type": "read",
+              "title": "用户画像概念",
+              "content": "lesson1-read.md",
+              "xp": 10
+            },
+            {
+              "type": "code",
+              "title": "变量聚合与分布",
+              "template": "lesson2-template.py",
+              "tests": "lesson2-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "饼图 + 柱状图",
+              "template": "lesson3-template.py",
+              "tests": "lesson3-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "偏好交叉分析（age 分组 × prefer_subject）",
+              "template": "lesson4-template.py",
+              "tests": "lesson4-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "三类典型画像",
+              "template": "lesson5-template.py",
+              "tests": "lesson5-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "code",
+              "title": "运营策略矩阵",
+              "template": "lesson6-template.py",
+              "tests": "lesson6-tests.py",
+              "xp": 20
+            },
+            {
+              "type": "quiz",
+              "title": "项目测验",
+              "questions": "questions.json",
+              "xp": 30
+            },
+            {
+              "type": "exam",
+              "title": "综合：各画像人数与推荐策略",
+              "template": "exam-template.py",
+              "tests": "exam-tests.py",
+              "xp": 100
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

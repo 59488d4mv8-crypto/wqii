@@ -1,0 +1,59 @@
+{
+  "title": "付费转化漏斗分析",
+  "description": "学习漏斗分析方法，识别付费转化卡点，并对多渠道转化率进行对比分析",
+  "stage": 3,
+  "order": 10,
+  "chapters": [
+    {
+      "title": "第 1 章 漏斗实战",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "漏斗概念：浏览 → 试学 → 加购 → 付费 → 完课",
+          "content": "lesson1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "各节点计数与转化率",
+          "template": "lesson2-template.py",
+          "tests": "lesson2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "渠道对比漏斗图",
+          "template": "lesson3-template.py",
+          "tests": "lesson3-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "转化卡点识别",
+          "template": "lesson4-template.py",
+          "tests": "lesson4-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "read",
+          "title": "提升建议",
+          "content": "lesson5-read.md",
+          "xp": 10
+        },
+        {
+          "type": "quiz",
+          "title": "项目测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合：各渠道付费转化率与卡点",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

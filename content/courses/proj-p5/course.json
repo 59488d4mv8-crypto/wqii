@@ -1,0 +1,67 @@
+{
+  "title": "学习时长与成绩相关性分析",
+  "description": "基于学习行为数据，分析时长、暂停、跳转等行为与 quiz 成绩之间的相关性，并用简单线性回归建模",
+  "stage": 3,
+  "order": 9,
+  "chapters": [
+    {
+      "title": "第 1 章 项目实战",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "变量与相关性概念",
+          "content": "lesson1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "数据概览",
+          "template": "lesson2-template.py",
+          "tests": "lesson2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "Pearson 相关系数矩阵",
+          "template": "lesson3-template.py",
+          "tests": "lesson3-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "时长 vs 成绩散点图",
+          "template": "lesson4-template.py",
+          "tests": "lesson4-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "简单线性回归",
+          "template": "lesson5-template.py",
+          "tests": "lesson5-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "箱线图：暂停次数对成绩的分组对比",
+          "template": "lesson6-template.py",
+          "tests": "lesson6-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "quiz",
+          "title": "项目测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合题：与成绩相关性最高的 3 个变量",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

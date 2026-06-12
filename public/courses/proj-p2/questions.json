@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "漏斗分析最适合回答什么问题？",
+      "options": ["预测下一期销量", "找出流失最严重的环节", "计算总营收", "分析用户人口统计学"],
+      "correct": 1
+    },
+    {
+      "question": "完课率通常指？",
+      "options": ["注册用户数 / 访问用户数", "完成课程的用户数 / 开始课程的用户数", "付费用户数 / 免费用户数", "分享用户数 / 学习用户数"],
+      "correct": 1
+    },
+    {
+      "question": "判断用户是否流失，最有效的特征是？",
+      "options": ["user_id", "progress", "timestamp", "course_id"],
+      "correct": 1
+    },
+    {
+      "question": "相关系数的取值范围是？",
+      "options": ["[0, 1]", "[-1, 1]", "[0, +inf)", "(-inf, +inf)"],
+      "correct": 1
+    },
+    {
+      "question": "progress 与 is_dropout 的相关系数通常是？",
+      "options": ["接近 1", "接近 0", "负值", "无法计算"],
+      "correct": 2
+    },
+    {
+      "question": "规则模型 'progress < threshold 判为流失' 的准确率随着阈值下降通常？",
+      "options": ["单调上升", "单调下降", "先升后降", "先降后升"],
+      "correct": 2
+    },
+    {
+      "question": "热力图最适合展示？",
+      "options": ["单个特征的分布", "两变量之间的相关矩阵", "时间序列走势", "分类计数"],
+      "correct": 1
+    },
+    {
+      "question": "ch3 的完课率最低，通常应该？",
+      "options": ["删除该章节", "简化内容或增加答疑", "提高售价", "更换封面"],
+      "correct": 1
+    },
+    {
+      "question": "准确率的公式是？",
+      "options": ["TP/(TP+FP)", "(TP+TN)/总数", "TP/(TP+FN)", "(FP+FN)/总数"],
+      "correct": 1
+    },
+    {
+      "question": "流失预测最有价值的应用是？",
+      "options": ["写报告", "提前干预和召回", "美化报表", "增加课程数量"],
+      "correct": 1
+    }
+  ]
+}

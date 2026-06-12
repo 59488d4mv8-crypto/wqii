@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>商务数据分析在线教育平台 | 学 · 练 · 测</title>
+<meta name="description" content="面向商务数据分析与应用专业的在线学习平台，提供完整课程体系、浏览器内 Python 交互练习、成就激励系统。" />
+<link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="./index.html" class="brand">📊 DA<span>Learn</span></a>
+    <nav class="nav-links">
+      <a href="./index.html" class="active">首页</a>
+      <a href="#stage-1">基础工具</a>
+      <a href="#stage-2">方法工具</a>
+      <a href="#stage-3">实战项目</a>
+      <a href="./achievement.html">我的成就</a>
+    </nav>
+    <div class="nav-right">
+      <span class="user-chip" id="userChip" title="当前用户">
+        <span class="chip-icon">👤</span>
+        <span id="chipName">学生</span>
+        <span class="chip-xp">🔥 <span id="chipXp">0</span> XP</span>
+      </span>
+      <button id="themeToggle" class="icon-btn" aria-label="切换主题">🌓</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>在浏览器里 <span class="hl">学 Python 数据分析</span></h1>
+        <p class="lead">面向商务数据分析与应用专业的完整课程体系：从 NumPy / Pandas 基础到 10 个真实业务场景的端到端分析项目，全部在浏览器内运行，零环境配置。</p>
+        <div class="hero-cta">
+          <a href="#stage-1" class="btn btn-primary">🚀 开始学习</a>
+          <a href="#stage-3" class="btn btn-ghost">查看 10 个实战项目 →</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong id="statCourses">14</strong><span>门课程</span></div>
+          <div><strong id="statLessons">—</strong><span>个课时</span></div>
+          <div><strong>0</strong><span>环境依赖</span></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="terminal">
+          <div class="terminal-bar"><span></span><span></span><span></span><span class="terminal-title">python — Pyodide</span></div>
+          <pre class="terminal-body"><code><span class="py-kw">import</span> <span class="py-name">pandas</span> <span class="py-kw">as</span> <span class="py-name">pd</span>
+<span class="py-name">df</span> <span class="py-op">=</span> <span class="py-name">pd</span><span class="py-op">.</span><span class="py-name">read_csv</span>(<span class="py-str">"datasets/sales_sample.csv"</span>)
+<span class="py-name">df</span><span class="py-op">.</span><span class="py-name">groupby</span>(<span class="py-str">"region"</span>)[<span class="py-str">"amount"</span>]<span class="py-op">.</span><span class="py-name">sum</span>()<span class="py-op">.</span><span class="py-name">sort_values</span>(<span class="py-name">ascending</span><span class="py-op">=</span><span class="py-kw">False</span>)
+
+<span class="py-cmt"># 输出 ↓</span>
+<span class="py-name">region</span>
+<span class="py-name">华东</span>    <span class="py-num">125800</span>
+<span class="py-name">华北</span>     <span class="py-num">98700</span>
+<span class="py-name">华南</span>     <span class="py-num">76200</span>
+<span class="py-name">西南</span>     <span class="py-num">54100</span>
+<span class="py-name">Name</span><span class="py-op">:</span> <span class="py-name">amount</span><span class="py-op">,</span> <span class="py-name">dtype</span><span class="py-op">:</span> <span class="py-name">int64</span></code></pre>
+        </div>
+        <p class="hero-note">* 代码在你的浏览器里通过 Pyodide 直接执行，无需任何后端。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section features">
+    <div class="container">
+      <h2>三件套 · 学 · 练 · 测</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <div class="feature-icon">📚</div>
+          <h3>完整课程体系</h3>
+          <p>阶段一（基础工具） → 阶段二（方法工具） → 阶段三（10 个实战项目），循序渐进。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">💻</div>
+          <h3>交互式练习</h3>
+          <p>每门课都有可编辑、可运行的 Python 代码格，即时反馈，断言式自动判题。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">✅</div>
+          <h3>单元测验 + 综合测评</h3>
+          <p>单选 / 多选 / 判断 / 填空 / 综合代码题，全方位检验学习成果。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🏅</div>
+          <h3>成就激励系统</h3>
+          <p>经验值 / 等级 / 徽章 / 连续学习 / 热力图，保持长期学习动机。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stage-1" class="section stage-section">
+    <div class="container">
+      <div class="stage-head">
+        <span class="stage-tag">阶段一</span>
+        <h2>基础工具：Python 数据分析入门</h2>
+        <p class="muted">推荐学习顺序：按课程编号学习。完成任一课程均可获得结业徽章。</p>
+      </div>
+      <div class="course-grid" id="courseGrid-1"></div>
+    </div>
+  </section>
+
+  <section id="stage-2" class="section stage-section alt">
+    <div class="container">
+      <div class="stage-head">
+        <span class="stage-tag tag-blue">阶段二</span>
+        <h2>方法工具：统计 / 清洗 / 可视化</h2>
+        <p class="muted">掌握商务数据分析的核心方法论，为实战项目打基础。</p>
+      </div>
+      <div class="course-grid" id="courseGrid-2"></div>
+    </div>
+  </section>
+
+  <section id="stage-3" class="section stage-section">
+    <div class="container">
+      <div class="stage-head">
+        <span class="stage-tag tag-orange">阶段三</span>
+        <h2>10 个实战项目：在线教育业务分析</h2>
+        <p class="muted">全部围绕"在线教育平台"业务主题，从注册活跃到用户画像，形成连贯的端到端分析能力。</p>
+      </div>
+      <div class="course-grid dense" id="courseGrid-3"></div>
+    </div>
+  </section>
+
+  <section class="section cta-section">
+    <div class="container cta-box">
+      <div>
+        <h2>准备好开始数据分析之旅了吗？</h2>
+        <p class="muted">点一下阶段一的课程，直接开始学习。进度全部保存在本地浏览器。</p>
+      </div>
+      <a href="#stage-1" class="btn btn-primary btn-lg">▶ 立即开始</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 商务数据分析在线教育平台 · 构建于 Pyodide + Cloudflare Pages</p>
+    <p class="muted small">开源课程内容可自由用于教学 · 提交 PR 添加新课程</p>
+  </div>
+</footer>
+
+<script src="./js/app.js" defer></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (window.DAL) window.DAL.initHome();
+  });
+</script>
+</body>
+</html>

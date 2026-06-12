@@ -1,0 +1,63 @@
+[
+  {
+    "type": "single",
+    "question": "以下哪个是 NumPy 的核心多维数组对象？",
+    "options": ["list", "ndarray", "DataFrame", "Series"],
+    "answer": 1
+  },
+  {
+    "type": "single",
+    "question": "Pandas 中，读取 CSV 文件的函数是？",
+    "options": ["pd.load_csv()", "pd.read_csv()", "pd.open_csv()", "pd.csv()"],
+    "answer": 1
+  },
+  {
+    "type": "multi",
+    "question": "以下哪些是 Pandas 的数据结构？（多选）",
+    "options": ["Series", "ndarray", "DataFrame", "dict"],
+    "answer": [0, 2]
+  },
+  {
+    "type": "bool",
+    "question": "groupby 之后必须使用聚合函数（如 sum、mean 等）才能看到结果。",
+    "answer": true
+  },
+  {
+    "type": "bool",
+    "question": "NumPy 数组的元素必须是同一种数据类型。",
+    "answer": true
+  },
+  {
+    "type": "single",
+    "question": "Matplotlib 中，绘制柱状图的函数是？",
+    "options": ["plt.plot()", "plt.bar()", "plt.scatter()", "plt.hist()"],
+    "answer": 1
+  },
+  {
+    "type": "single",
+    "question": "df.isna().sum() 的作用是？",
+    "options": [
+      "返回 DataFrame 总和",
+      "统计每列的缺失值数量",
+      "删除所有缺失值",
+      "填充缺失值"
+    ],
+    "answer": 1
+  },
+  {
+    "type": "multi",
+    "question": "以下哪些是常见的数据清洗操作？（多选）",
+    "options": ["处理缺失值", "处理重复值", "检测异常值", "计算相关系数"],
+    "answer": [0, 1, 2]
+  },
+  {
+    "type": "fill",
+    "question": "Python 中，用于数值计算的基础库是 ____（填库名）",
+    "answer": "numpy"
+  },
+  {
+    "type": "fill",
+    "question": "Pandas 中，对 DataFrame 按某列升序排序的方法是 df.sort_values(\"col\")，若要降序应设置 ascending=____",
+    "answer": "False"
+  }
+]

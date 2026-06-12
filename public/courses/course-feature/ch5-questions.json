@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "检测 DataFrame 中每列缺失值数量的正确方式是？",
+      "options": ["df.null()", "df.isna().sum()", "df.nan_count()", "df.missing()"],
+      "correct": 1
+    },
+    {
+      "question": "对于数值列的缺失值，优先推荐用什么填充？",
+      "options": ["均值", "中位数", "最大值", "0"],
+      "correct": 1
+    },
+    {
+      "question": "dropna(how='all') 的作用是？",
+      "options": ["删掉所有行", "删掉所有列都是 NaN 的行", "删掉含任何 NaN 的行", "删掉第一列"],
+      "correct": 1
+    },
+    {
+      "question": "IQR 法中异常值的常用上下界公式是？",
+      "options": ["Q1 ± 1.5·IQR", "Q2 ± 1.5·IQR", "Q1 - 1.5·IQR 和 Q3 + 1.5·IQR", "均值 ± 标准差"],
+      "correct": 2
+    },
+    {
+      "question": "Z-score 异常值判断的常用阈值是？",
+      "options": ["|z| > 1", "|z| > 3", "|z| > 10", "z > 0"],
+      "correct": 1
+    },
+    {
+      "question": "等频分箱应使用哪个 pandas 函数？",
+      "options": ["pd.cut", "pd.qcut", "pd.bin", "pd.groupby"],
+      "correct": 1
+    },
+    {
+      "question": "pd.cut 的 bins 参数表示？",
+      "options": ["箱子数量或切分点", "样本数", "缺失值数量", "分位数"],
+      "correct": 0
+    },
+    {
+      "question": "对无序类别变量（如城市）最推荐的编码方式是？",
+      "options": ["label encoding", "one-hot encoding", "用 0 填充", "不处理"],
+      "correct": 1
+    },
+    {
+      "question": "label encoding 更适合哪类变量？",
+      "options": ["无序类别", "有序类别", "连续数值", "时间戳"],
+      "correct": 1
+    },
+    {
+      "question": "pd.get_dummies 返回的数据类型是？",
+      "options": ["Series", "DataFrame（由 0/1 组成）", "字典", "列表"],
+      "correct": 1
+    }
+  ]
+}

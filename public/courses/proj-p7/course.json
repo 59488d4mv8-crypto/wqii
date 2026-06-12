@@ -1,0 +1,67 @@
+{
+  "title": "课程推荐关联规则（手写 Apriori）",
+  "description": "使用手写 Apriori 算法，从用户课程学习事务数据，挖掘课程间的关联规则，用于课程推荐",
+  "stage": 3,
+  "order": 11,
+  "chapters": [
+    {
+      "title": "第 1 章 关联规则实战",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "关联规则概念：支持度 / 置信度 / 提升度",
+          "content": "lesson1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "事务数据格式",
+          "template": "lesson2-template.py",
+          "tests": "lesson2-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "手写 Apriori 第一步：1-itemsets",
+          "template": "lesson3-template.py",
+          "tests": "lesson3-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "手写 Apriori 第二步：join → prune",
+          "template": "lesson4-template.py",
+          "tests": "lesson4-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "规则生成：置信度与提升度",
+          "template": "lesson5-template.py",
+          "tests": "lesson5-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "code",
+          "title": "Top 推荐表",
+          "template": "lesson6-template.py",
+          "tests": "lesson6-tests.py",
+          "xp": 20
+        },
+        {
+          "type": "quiz",
+          "title": "项目测验",
+          "questions": "questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合：Top-5 提升度规则",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

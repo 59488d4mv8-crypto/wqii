@@ -1,0 +1,22 @@
+{
+  "name": "data-analysis-edplatform",
+  "version": "1.0.0",
+  "description": "面向商务数据分析专业的在线教育平台，基于 Pyodide 实现浏览器内 Python 数据分析学习",
+  "main": "scripts/build.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "validate": "python3 scripts/validate_content.py",
+    "serve": "python3 -m http.server 8080 --directory public"
+  },
+  "keywords": [
+    "education",
+    "python",
+    "data-analysis",
+    "pyodide",
+    "cloudflare-pages"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

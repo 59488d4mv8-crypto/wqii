@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>我的成就 | 商务数据分析在线教育平台</title>
+<link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="./index.html" class="brand">📊 DA<span>Learn</span></a>
+    <nav class="nav-links">
+      <a href="./index.html">首页</a>
+      <a href="./achievement.html" class="active">我的成就</a>
+    </nav>
+    <div class="nav-right">
+      <button id="themeToggle" class="icon-btn">🌓</button>
+    </div>
+  </div>
+</header>
+
+<main class="container ach-main">
+  <section class="ach-hero">
+    <div class="ach-level-card">
+      <div class="level-ring" id="levelRing"><span id="levelText">Lv 1</span></div>
+      <div>
+        <h1 id="heroUser">同学你好！</h1>
+        <p class="lead">总经验值 <strong id="heroXp">0</strong> · 等级 <strong id="heroLv">1</strong> · 徽章 <strong id="heroBadges">0</strong> 枚</p>
+        <p class="muted">🔥 连续学习 <strong id="heroStreak">0</strong> 天 · 历史最长 <strong id="heroMaxStreak">0</strong> 天</p>
+      </div>
+    </div>
+    <div class="ach-tools">
+      <div class="name-edit">
+        <label for="nickname">昵称</label>
+        <input id="nickname" placeholder="输入昵称" />
+      </div>
+      <button id="btnExport" class="btn btn-ghost">⬇ 导出学习档案 JSON</button>
+      <label class="btn btn-ghost" for="importFile">⬆ 导入学习档案</label>
+      <input type="file" id="importFile" accept="application/json" hidden />
+      <button id="btnReset" class="btn btn-danger">🗑 清空所有进度</button>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>🏅 徽章墙</h2>
+    <div id="badgeGrid" class="badge-grid"></div>
+  </section>
+
+  <section class="section">
+    <h2>📅 学习热力图（近 180 天）</h2>
+    <div id="heatmap" class="heatmap"></div>
+    <p class="muted small" id="heatmapLegend">颜色越深，当日完成的课时越多</p>
+  </section>
+
+  <section class="section">
+    <h2>📖 课程进度</h2>
+    <div id="courseProgressList" class="course-progress-list"></div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="container"><p class="muted small">© DA-Learn · 学习档案存储在本地浏览器</p></div></footer>
+
+<script src="./js/app.js" defer></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (window.DAL) window.DAL.initAchievement();
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "DAU 指的是？",
+      "options": ["日活跃用户数", "周活跃用户数", "月活跃用户数", "年活跃用户数"],
+      "correct": 0
+    },
+    {
+      "question": "以下哪个指标最能反映获客能力？",
+      "options": ["DAU", "注册量", "留存率", "ARPU"],
+      "correct": 1
+    },
+    {
+      "question": "计算 WAU 最常用的时间窗口是？",
+      "options": ["1 天", "7 天", "30 天", "90 天"],
+      "correct": 1
+    },
+    {
+      "question": "30 日留存曲线通常呈现什么形状？",
+      "options": ["上升", "下降", "保持水平", "先升后降"],
+      "correct": 1
+    },
+    {
+      "question": "分析注册渠道时，下列哪张图最合适？",
+      "options": ["散点图", "柱状图", "折线图", "饼图"],
+      "correct": 1
+    },
+    {
+      "question": "哪个指标衡量用户在一段时间内的活跃频率？",
+      "options": ["注册量", "session_count", "dau", "active_days"],
+      "correct": 3
+    },
+    {
+      "question": "以下哪种数据操作最适合用来找出 top N 渠道？",
+      "options": ["sort_values + head", "mean", "dropna", "fillna"],
+      "correct": 0
+    },
+    {
+      "question": "以下哪个渠道通常获取的用户质量最高？",
+      "options": ["付费广告", "自然搜索", "推荐", "社交媒体"],
+      "correct": 2
+    },
+    {
+      "question": "活跃用户的定义必须满足什么条件？",
+      "options": ["至少注册一次", "至少登录或完成一次行为", "至少付费一次", "至少分享一次"],
+      "correct": 1
+    },
+    {
+      "question": "注册渠道对比的主要目的是什么？",
+      "options": ["找最高产的渠道", "评估渠道质量和投入产出", "美化报表", "凑满课程要求"],
+      "correct": 1
+    }
+  ]
+}

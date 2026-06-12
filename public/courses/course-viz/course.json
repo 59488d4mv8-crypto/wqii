@@ -1,0 +1,98 @@
+{
+  "title": "数据可视化进阶",
+  "description": "掌握多图布局、漏斗图、桑基图、热力图与商务常见图表，打造可落地的数据报告",
+  "stage": 2,
+  "order": 4,
+  "chapters": [
+    {
+      "title": "第 1 章 多图布局与样式",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "subplots / figsize / title / legend / 颜色",
+          "content": "ch1-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "多图布局练习",
+          "template": "ch1-template.py",
+          "tests": "ch1-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 2 章 漏斗图",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "matplotlib 横向 bar 绘制销售漏斗",
+          "content": "ch2-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "漏斗图练习",
+          "template": "ch2-template.py",
+          "tests": "ch2-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 3 章 桑基图 / 热力图",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "matplotlib imshow 与 seaborn heatmap",
+          "content": "ch3-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "热力图练习",
+          "template": "ch3-template.py",
+          "tests": "ch3-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 4 章 商务常见图形",
+      "lessons": [
+        {
+          "type": "read",
+          "title": "饼图 / 雷达图 / 双轴图",
+          "content": "ch4-read.md",
+          "xp": 10
+        },
+        {
+          "type": "code",
+          "title": "商务图表练习",
+          "template": "ch4-template.py",
+          "tests": "ch4-tests.py",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "title": "第 5 章 测验与综合项目",
+      "lessons": [
+        {
+          "type": "quiz",
+          "title": "数据可视化测验",
+          "questions": "ch5-questions.json",
+          "xp": 30
+        },
+        {
+          "type": "exam",
+          "title": "综合项目：销售仪表盘 4 子图",
+          "template": "exam-template.py",
+          "tests": "exam-tests.py",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

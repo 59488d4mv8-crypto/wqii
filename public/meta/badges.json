@@ -1,0 +1,156 @@
+[
+  {
+    "id": "first-lesson",
+    "name": "迈出第一步",
+    "desc": "完成首个课时",
+    "icon": "🎯",
+    "xp": 10
+  },
+  {
+    "id": "first-quiz",
+    "name": "测验新星",
+    "desc": "完成一次单元测验",
+    "icon": "✏️",
+    "xp": 15
+  },
+  {
+    "id": "first-code",
+    "name": "代码小能手",
+    "desc": "通过一道代码练习",
+    "icon": "💻",
+    "xp": 20
+  },
+  {
+    "id": "streak-7",
+    "name": "七日连学",
+    "desc": "连续学习 7 天",
+    "icon": "🔥",
+    "xp": 50
+  },
+  {
+    "id": "streak-30",
+    "name": "月度学者",
+    "desc": "连续学习 30 天",
+    "icon": "🏆",
+    "xp": 200
+  },
+  {
+    "id": "analyst",
+    "name": "数据侦探",
+    "desc": "完成任意实战项目",
+    "icon": "🔍",
+    "xp": 80
+  },
+  {
+    "id": "pioneer",
+    "name": "实战先锋",
+    "desc": "完成 5 个实战项目",
+    "icon": "🚀",
+    "xp": 300
+  },
+  {
+    "id": "master",
+    "name": "全能分析师",
+    "desc": "完成全部 10 个实战项目",
+    "icon": "👑",
+    "xp": 800
+  },
+  {
+    "id": "course-basics",
+    "name": "基础工具通关",
+    "desc": "完成 Python 数据分析基础",
+    "icon": "📘",
+    "xp": 100
+  },
+  {
+    "id": "course-stats",
+    "name": "统计高手",
+    "desc": "完成商务统计课程",
+    "icon": "📊",
+    "xp": 120
+  },
+  {
+    "id": "course-feature",
+    "name": "数据清洗专家",
+    "desc": "完成特征工程课程",
+    "icon": "🧹",
+    "xp": 120
+  },
+  {
+    "id": "course-viz",
+    "name": "可视化达人",
+    "desc": "完成数据可视化进阶",
+    "icon": "🎨",
+    "xp": 120
+  },
+  {
+    "id": "proj-p1",
+    "name": "注册活跃分析师",
+    "desc": "完成项目 1",
+    "icon": "📈",
+    "xp": 80
+  },
+  {
+    "id": "proj-p2",
+    "name": "流失预警专家",
+    "desc": "完成项目 2",
+    "icon": "⚠️",
+    "xp": 80
+  },
+  {
+    "id": "proj-p3",
+    "name": "RFM 分层达人",
+    "desc": "完成项目 3",
+    "icon": "🎯",
+    "xp": 80
+  },
+  {
+    "id": "proj-p4",
+    "name": "情感洞察师",
+    "desc": "完成项目 4",
+    "icon": "💬",
+    "xp": 80
+  },
+  {
+    "id": "proj-p5",
+    "name": "相关性分析师",
+    "desc": "完成项目 5",
+    "icon": "🔗",
+    "xp": 80
+  },
+  {
+    "id": "proj-p6",
+    "name": "转化漏斗专家",
+    "desc": "完成项目 6",
+    "icon": "⏳",
+    "xp": 80
+  },
+  {
+    "id": "proj-p7",
+    "name": "推荐规则挖掘师",
+    "desc": "完成项目 7",
+    "icon": "🧠",
+    "xp": 80
+  },
+  {
+    "id": "proj-p8",
+    "name": "流量预言家",
+    "desc": "完成项目 8",
+    "icon": "📡",
+    "xp": 80
+  },
+  {
+    "id": "proj-p9",
+    "name": "教师评分专家",
+    "desc": "完成项目 9",
+    "icon": "⭐",
+    "xp": 80
+  },
+  {
+    "id": "proj-p10",
+    "name": "用户画像设计师",
+    "desc": "完成项目 10",
+    "icon": "🧑‍🎓",
+    "xp": 80
+  }
+]
